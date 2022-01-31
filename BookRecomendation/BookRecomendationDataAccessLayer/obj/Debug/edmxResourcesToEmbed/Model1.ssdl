@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="GoodReadsBooksModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="BookRecomendationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Authors">
     <Key>
       <PropertyRef Name="author_id" />
     </Key>
-    <Property Name="author_id" Type="int" Nullable="false" />
+    <Property Name="author_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="author_name" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityType Name="Books">
@@ -14,10 +14,10 @@
     <Property Name="book_isbn" Type="int" Nullable="false" />
     <Property Name="title" Type="varchar" MaxLength="100" />
     <Property Name="book_edition" Type="int" Nullable="false" />
-    <Property Name="authour_id" Type="int" Nullable="false" />
+    <Property Name="author_id" Type="int" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'GoodReadsBooks.dbo.Reviews' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'BookRecomendation.dbo.Reviews' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Reviews">
     <Key>
       <PropertyRef Name="rating" />
@@ -27,7 +27,7 @@ warning 6002: The table/view 'GoodReadsBooks.dbo.Reviews' does not have a primar
     <Property Name="rating" Type="int" Nullable="false" />
     <Property Name="review" Type="varchar" MaxLength="100" Nullable="false" />
   </EntityType>
-  <Association Name="FK__Books__authour_i__29572725">
+  <Association Name="FK__Books__author_id__267ABA7A">
     <End Role="Authors" Type="Self.Authors" Multiplicity="1" />
     <End Role="Books" Type="Self.Books" Multiplicity="*" />
     <ReferentialConstraint>
@@ -35,11 +35,11 @@ warning 6002: The table/view 'GoodReadsBooks.dbo.Reviews' does not have a primar
         <PropertyRef Name="author_id" />
       </Principal>
       <Dependent Role="Books">
-        <PropertyRef Name="authour_id" />
+        <PropertyRef Name="author_id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Reviews__book_is__2B3F6F97">
+  <Association Name="FK__Reviews__book_is__286302EC">
     <End Role="Books" Type="Self.Books" Multiplicity="0..1" />
     <End Role="Reviews" Type="Self.Reviews" Multiplicity="*" />
     <ReferentialConstraint>
@@ -51,7 +51,7 @@ warning 6002: The table/view 'GoodReadsBooks.dbo.Reviews' does not have a primar
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="GoodReadsBooksModelStoreContainer">
+  <EntityContainer Name="BookRecomendationModelStoreContainer">
     <EntitySet Name="Authors" EntityType="Self.Authors" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Books" EntityType="Self.Books" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Reviews" EntityType="Self.Reviews" store:Type="Tables" store:Schema="dbo">
@@ -61,11 +61,11 @@ warning 6002: The table/view 'GoodReadsBooks.dbo.Reviews' does not have a primar
     [Reviews].[review] AS [review]
     FROM [dbo].[Reviews] AS [Reviews]</DefiningQuery>
     </EntitySet>
-    <AssociationSet Name="FK__Books__authour_i__29572725" Association="Self.FK__Books__authour_i__29572725">
+    <AssociationSet Name="FK__Books__author_id__267ABA7A" Association="Self.FK__Books__author_id__267ABA7A">
       <End Role="Authors" EntitySet="Authors" />
       <End Role="Books" EntitySet="Books" />
     </AssociationSet>
-    <AssociationSet Name="FK__Reviews__book_is__2B3F6F97" Association="Self.FK__Reviews__book_is__2B3F6F97">
+    <AssociationSet Name="FK__Reviews__book_is__286302EC" Association="Self.FK__Reviews__book_is__286302EC">
       <End Role="Books" EntitySet="Books" />
       <End Role="Reviews" EntitySet="Reviews" />
     </AssociationSet>

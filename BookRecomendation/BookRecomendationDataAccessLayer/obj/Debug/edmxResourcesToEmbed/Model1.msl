@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="GoodReadsBooksModelStoreContainer" CdmEntityContainer="GoodReadsBooksContext">
+  <EntityContainerMapping StorageEntityContainer="BookRecomendationModelStoreContainer" CdmEntityContainer="BookRecomendationContext">
     <EntitySetMapping Name="Authors">
-      <EntityTypeMapping TypeName="GoodReadsBooksModel.Author">
+      <EntityTypeMapping TypeName="BookRecomendationModel.Author">
         <MappingFragment StoreEntitySet="Authors">
           <ScalarProperty Name="author_id" ColumnName="author_id" />
           <ScalarProperty Name="author_name" ColumnName="author_name" />
@@ -10,17 +10,17 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Books">
-      <EntityTypeMapping TypeName="GoodReadsBooksModel.Book">
+      <EntityTypeMapping TypeName="BookRecomendationModel.Book">
         <MappingFragment StoreEntitySet="Books">
           <ScalarProperty Name="book_isbn" ColumnName="book_isbn" />
           <ScalarProperty Name="title" ColumnName="title" />
           <ScalarProperty Name="book_edition" ColumnName="book_edition" />
-          <ScalarProperty Name="authour_id" ColumnName="authour_id" />
+          <ScalarProperty Name="author_id" ColumnName="author_id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Reviews">
-      <EntityTypeMapping TypeName="GoodReadsBooksModel.Review">
+      <EntityTypeMapping TypeName="BookRecomendationModel.Review">
         <MappingFragment StoreEntitySet="Reviews">
           <ScalarProperty Name="book_isbn" ColumnName="book_isbn" />
           <ScalarProperty Name="rating" ColumnName="rating" />

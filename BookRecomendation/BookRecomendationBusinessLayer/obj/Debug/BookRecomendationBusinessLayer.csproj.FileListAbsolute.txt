@@ -24,3 +24,17 @@ C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRec
 C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.csproj.CopyComplete
 C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.dll
 C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.pdb
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\BookRecomendationBusinessLayer.dll
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\BookRecomendationBusinessLayer.pdb
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\BookRecomendationDataAccessLayer.dll
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\BookRecomendationDTO.dll
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\BookRecomendationDataAccessLayer.pdb
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\BookRecomendationDataAccessLayer.dll.config
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\BookRecomendationDTO.pdb
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.csproj.CopyComplete
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.dll
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationBusinessLayer\obj\Debug\BookRecomendationBusinessLayer.pdb

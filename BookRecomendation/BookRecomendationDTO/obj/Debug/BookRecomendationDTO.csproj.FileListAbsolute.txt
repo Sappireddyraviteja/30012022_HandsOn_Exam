@@ -16,3 +16,9 @@ C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRec
 C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRecomendationDTO\obj\Debug\BookRecomendationDTO.csproj.CoreCompileInputs.cache
 C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRecomendationDTO\obj\Debug\BookRecomendationDTO.dll
 C:\Users\40013016\Desktop\OneDrive_1_1-30-2022\HandsOn\BookRecomendation\BookRecomendationDTO\obj\Debug\BookRecomendationDTO.pdb
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationDTO\bin\Debug\BookRecomendationDTO.dll
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationDTO\bin\Debug\BookRecomendationDTO.pdb
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationDTO\obj\Debug\BookRecomendationDTO.csproj.AssemblyReference.cache
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationDTO\obj\Debug\BookRecomendationDTO.csproj.CoreCompileInputs.cache
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationDTO\obj\Debug\BookRecomendationDTO.dll
+C:\Users\tulasi\Desktop\40020495\30012022_HandsOn_Exam\BookRecomendation\BookRecomendationDTO\obj\Debug\BookRecomendationDTO.pdb
